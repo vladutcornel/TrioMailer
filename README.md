@@ -1,16 +1,16 @@
-# PHPMailer - A full-featured email creation and transfer class for PHP
+# Mail utilities for PHP based on PHPMailer - A full-featured email creation and transfer class for PHP
+
+The goal is to improve PHPMailer with [TrioCore](https://github.com/vladutcornel/3oFramework/tree/master) benefits and provide a Mail component for [TrioFramework](https://github.com/vladutcornel/3oFramework/tree/Core)
 
 ## Class Features
 
-- Probably the world's most popular code for sending email from PHP!
-- Used by many open-source projects: Drupal, SugarCRM, Yii, Joomla! and many more
 - Integrated SMTP support - send without a local mail server
 - Send emails with multiple TOs, CCs, BCCs and REPLY-TOs
 - Multipart/alternative emails for mail clients that do not read HTML email
 - Support for 8bit, base64, binary, and quoted-printable encoding
 - SMTP authentication with LOGIN, PLAIN, NTLM and CRAM-MD5 mechanisms
 - Native language support
-- Compatible with PHP 5.0 and later
+- Compatible with PHP 5.3 and later
 - Much more!
 
 ## Why you might need it
