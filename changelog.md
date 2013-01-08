@@ -1,5 +1,11 @@
 # ChangeLog
-  
+
+## Trio Mail beta
+  * Imported Whereis and TObject (new base class for Mailer) from TrioCore and added a simplified version of the framework for the using as stand-alone library
+  * Moved PHPMailer to trio\mail namespace and renamed to Mailer
+  * Trio Mailer now only supports PHP 5.3 or newer
+
+## PHPMailer before fork
   * Add CRAM-MD5 authentication, thanks to Elijah madden, https://github.com/okonomiyaki3000
   * Replacement of obsolete Quoted-Printable encoder with a much better implementation
   * Composer package definition
